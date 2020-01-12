@@ -60,9 +60,10 @@ hr {
 	margin-left:0px;
 	margin-right:0px;
 	min-width: 900px;
+	padding-bottom: 10px;
 }
 
-.main, .logo, .menubar, .site_content, .footer {
+.wrapper, .logo, .menubar, .site_content, .footer-main {
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -203,20 +204,7 @@ ul.menu li a:hover {
 	font-size: 0.8em;
 }
 
-.info_film_page  {
-	margin-top: 2%;
-	margin-bottom: 4%;
-}
 
-.info_film_page .label  {
-	font-size: 1.2em;
-}
-
-.info_film_page .value {
-	font-size: 1em;
-	color: #49945a;
-	margin-right: 5%;
-}
 
 .discription_film {
 	margin-bottom: 15%;
@@ -302,20 +290,7 @@ ul.menu li a:hover {
 	border-radius: 5px;
 }
 
-.info_film {
-	margin-bottom: 5%;
-	background-color: #f9f9f9;
-	padding: 5%;
-	height: 270px;
-}
 
-.info_film img {
-	float: left;
-	margin-right: 2%;
-	border-radius: 5px;
-	border: 5px solid #dad7d5;
-	width: 25%;
-}
 
 .button {
 	background-color: #7268ad;
@@ -357,7 +332,7 @@ td img {
 }
 
 
-.footer {
+.footer-main {
 	width: 100%;
 	height: 100px;
 	padding: 28px 0 5px 0;
@@ -369,18 +344,19 @@ td img {
 	min-width: 900px;
 }
 
-.footer a {
+.footer-main a {
 	color: #a8aa94;
 	text-decoration: none;
 }
 
-.footer a:hover {
+.footer-main a:hover {
 	color: #fff;
 	text-decoration: none;
 }
 
-.footer p {
+.footer-main p {
 	padding: 0 0 15px 0;
+	margin-top: 20px;
 }
 
 
@@ -449,7 +425,7 @@ and (max-device-width : 568px) {
 		width: 43%;
 	}
 
-	.footer {
+	.footer-main {
 		display: none;
 	}
 	
@@ -464,32 +440,6 @@ and (max-device-width : 568px) {
 		padding: 2%;
 	}
 
-
-/* Film page */
-
-	.info_film {
-		height: 100%;
-		float: none;
-		text-align: left;
-
-	}
-
-	.info_film img {
-		width: 100%;
-		margin-bottom: 5%;
-	}
-
-	.button {
-		background-color: #439e72;
-		text-align: center;
-		float: none;
-		margin-top: 4%;
-
-	}
-
-	.button a {
-		color: white;
-	}
 
 /* Rating page */
 
