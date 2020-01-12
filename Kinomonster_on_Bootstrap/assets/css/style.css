@@ -36,6 +36,13 @@
     border-radius: 0;
 }
 
+.footer-main {
+	background-color: #1c1c1c;
+	height: 60px;
+	padding: 20px;
+}
+
+
 @media (max-width: 767px) {
 	.nav-pills li {
 		float: none;
